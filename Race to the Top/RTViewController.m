@@ -7,8 +7,11 @@
 //
 
 #import "RTViewController.h"
+#import "RTPathView.h"
 
 @interface RTViewController ()
+
+@property (strong, nonatomic) IBOutlet RTPathView *pathView;
 
 @end
 
